@@ -1,0 +1,54 @@
+/* General */
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 400;
+}
+
+
+
+/* Prevent paragraphs from overlapping when screen is small */
+p {
+	font-size: 0.9em;
+}
+
+
+@media (min-width: 992px) {
+	p {
+		font-size: 1em;
+	}
+}
+
+
+a {
+	color: #dc3545;
+}
+
+
+
+/* Content */
+.text-area-size {
+	width: 60%;
+	min-width: 260px;
+	height: 100px;
+}
+
+
+.content-top-margin {
+	margin-top: 20px;
+}
+
+
+.content-bottom-margin {
+	margin-bottom: 20px;
+}
+
+
+.content-padding {
+	padding: 20px;
+}
+
+
+.content-background {
+	background-color: #ddd;
+}
